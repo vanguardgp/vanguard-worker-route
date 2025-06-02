@@ -10,7 +10,10 @@
   "observability": {
     "enabled": true
   },
-  "vars": { "PAYMENT_PROCESSOR_URL": "" }
+  "vars": {
+    "PAYMENT_PROCESSOR_URL": "https://dashpay.footisking.com/",
+    "SITE_ID": ""
+  }
   /**
    * Smart Placement
    * Docs: https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
